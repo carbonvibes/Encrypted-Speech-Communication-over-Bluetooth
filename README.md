@@ -2,6 +2,7 @@
 <p align="justify"> 
 This project involves the development of Simulink-based Android/iOS applications for two mobile phones, Phone A and Phone B, to facilitate secure voice communication using encryption over Bluetooth. The applications implement two encryption methods and provide user-friendly interfaces for selecting encryption and decryption options.
 </p>
+
 ---
 
 ## Project Description
