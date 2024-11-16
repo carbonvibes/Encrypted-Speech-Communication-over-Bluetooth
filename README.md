@@ -93,6 +93,8 @@ voice-encryption-app/
 └── README.md              # Project documentation
 ```
 
-##Contributors:
-1. Arjun Sekar (22110034)
-2. Raghavpravin KS (22110xxx)
+## Contributors:
+### 1. Arjun Sekar (22110034)
+### 2. Raghavpravin KS (22110xxx)
+
+---
