@@ -88,9 +88,9 @@ The project has two main components:
 ```plaintext
 voice-encryption-app/
 │
-├── Enryption.slx          # Simulink model for sender's phone
+├── Enryption_App.slx          # Simulink model for sender's phone
 │
-├── Decryption.slx         # Simulink model for receiver's phone
+├── Decryption_App.slx         # Simulink model for receiver's phone
 │
 └── README.md              # Project documentation
 ```
