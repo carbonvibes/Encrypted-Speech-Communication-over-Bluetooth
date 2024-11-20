@@ -1,7 +1,7 @@
 ### Contributors:
 ### 1. Arjun Sekar (22110034)
 ### 2. Raghavpravin KS (22110208)
-### 3. Raj Patel (22110xxx)
+### 3. Raj Patel (22110214)
 
 ---
 # Voice Encryption and Decryption App
