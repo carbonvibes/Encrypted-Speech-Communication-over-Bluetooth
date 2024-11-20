@@ -1,6 +1,7 @@
-## Contributors:
+### Contributors:
 ### 1. Arjun Sekar (22110034)
-### 2. Raghavpravin KS (22110xxx)
+### 2. Raghavpravin KS (22110208)
+### 3. Raj Patel (22110xxx)
 
 ---
 # Voice Encryption and Decryption App
@@ -87,16 +88,10 @@ The project has two main components:
 ```plaintext
 voice-encryption-app/
 │
-├── PhoneA/
-│   ├── PhoneA.slx         # Simulink model for Phone A
-│   └── encryption.m       # Supporting MATLAB files for encryption
+├── Enryption.slx          # Simulink model for sender's phone
 │
-├── PhoneB/
-│   ├── PhoneB.slx         # Simulink model for Phone B
-│   └── decryption.m       # Supporting MATLAB files for decryption
+├── Decryption.slx         # Simulink model for receiver's phone
 │
 └── README.md              # Project documentation
-```
-
 
 ---
