@@ -93,5 +93,6 @@ voice-encryption-app/
 ├── Decryption.slx         # Simulink model for receiver's phone
 │
 └── README.md              # Project documentation
+```
 
 ---
