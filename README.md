@@ -1,6 +1,11 @@
+## Contributors:
+### 1. Arjun Sekar (22110034)
+### 2. Raghavpravin KS (22110xxx)
+
+---
 # Voice Encryption and Decryption App
 <p align="justify"> 
-This project involves the development of Simulink-based Android/iOS applications for two mobile phones, Phone A and Phone B, to facilitate secure voice communication using encryption over Bluetooth. The applications implement two encryption methods and provide user-friendly interfaces for selecting encryption and decryption options.
+This project involves the development of Simulink-based Android/iOS applications for two mobile phones, Phone A and Phone B, to facilitate secure voice communication using encryption over TCP/IP. The applications implement two encryption methods and provide user-friendly interfaces for selecting encryption and decryption options.
 </p>
 
 ---
@@ -15,12 +20,12 @@ The project has two main components:
 - Encrypts the message using one of the two methods:
   1. **Spectrum Scrambling**: Scrambles the audio spectrum to make the audio unintelligible.
   2. **Noise Addition**: Adds noise signals (e.g., pure tones) to distort the audio.
-- Transmits the encrypted signal over Bluetooth.
+- Transmits the encrypted signal over TCP/IP.
 - Features a user interface (UI) for choosing the encryption method.
 
 ### Phone B Application
 
-- Receives the encrypted voice message via Bluetooth.
+- Receives the encrypted voice message via TCP/IP.
 - Provides options to:
   1. **Play Encrypted Audio**: Listen to the transmitted, encrypted message.
   2. **Decrypt and Play Audio (Method 1)**: Decrypt and play the audio encrypted via spectrum scrambling.
@@ -32,7 +37,7 @@ The project has two main components:
 ## Features
 
 - **Real-time Voice Encryption**: Ensures privacy during voice communication.
-- **Bluetooth Transmission**: Facilitates secure data exchange between devices.
+- **TCP/IP Transmission**: Facilitates secure data exchange between devices.
 - **Interactive User Interfaces**: Easy selection of encryption and decryption methods.
 - **Cross-Platform**: Compatible with Android and iOS platforms.
 
@@ -41,7 +46,7 @@ The project has two main components:
 ## System Requirements
 
 - MATLAB with Simulink and the **Simulink Support Package for Android/iOS**.
-- Android/iOS devices with Bluetooth support.
+- Android/iOS devices with TCP/IP support.
 - MATLAB toolboxes for audio processing (e.g., DSP System Toolbox).
 
 ---
@@ -66,7 +71,7 @@ The project has two main components:
 1. Launch the application on **Phone A**:  
    - Record a voice message.  
    - Select the desired encryption method.  
-   - Transmit the encrypted message via Bluetooth.  
+   - Transmit the encrypted message via TCP/IP.  
 
 2. Launch the application on **Phone B**:  
    - Receive the transmitted message.  
@@ -93,8 +98,5 @@ voice-encryption-app/
 └── README.md              # Project documentation
 ```
 
-## Contributors:
-### 1. Arjun Sekar (22110034)
-### 2. Raghavpravin KS (22110xxx)
 
 ---
